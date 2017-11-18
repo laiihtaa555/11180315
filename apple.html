@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://melodylai7.github.io/111405/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+    
+    
+   
+
+    
+body {
+  margin: 500;
+  background: #FFCCCC;
+  min-width: 960px;
+}
+    
+rect {
+  fill: none;
+  pointer-events: all;
+}
+    
+    
+circle {
+  fill: none;
+  stroke-width: 2.5px;
+}
+    
+    
+      #container { 
+  padding-top:15px; 
+  padding-left:10px; 
+  padding-right:30px; 
+  padding-bottom:40px; 
+  border: 1px solid 000000; 
+} 
+    
+ 
+ 
+    
+    
+
+    
+    
+</style>
+
+
+</head><body>
+
+<div id="container"> 
+ 
+</div>
+   
+<div title="click the numbers"><center>
+    
+    
+
+    
+    <h2>
+    Happy States in America
+  </h2>
+    
+    
+    
+    
+    
+    
+</center>
+    
+</div>
+
+
+
+<style>
+
+    
+    
+    
+.state rect {
+  fill: #AAAAAA;
+}
+
+.state text {
+  font: 12px sans-serif;
+  text-anchor: middle;
+}
+
+.state--selected rect {
+  fill: #99FFFF;
+}
+
+.state--selected text {
+  fill: white;
+}
+
+.state1 rect {
+  fill: #BBFF00;
+}
+
+.state1 text {
+  fill: white;
+}
+    
+
+.intro rect{
+	fill: yellow;
+}
+.intro text{
+	fill: red;
+}  
+    
+    
+    
+    .state2 rect {
+  fill: #9999FF;
+}
+
+.state2 text {
+  fill: white;
+}
+   
+    
+
+</style>
+
+<svg width="800" height="300">
+<g transform="translate(300,250)"><g class="state" transform="translate(180,-140)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">ME</text></g><g class="state" transform="translate(-20,-100)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">WI</text></g><g class="state" transform="translate(140,-100)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">VT</text></g><g class="state" transform="translate(180,-100)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">NH</text></g><g class="state" transform="translate(-220,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">WA</text></g><g class="state" transform="translate(-180,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">ID</text></g><g class="state" transform="translate(-140,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">MT</text></g><g class="state" transform="translate(-100,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">ND</text></g><g class="state " transform="translate(-60,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">MN</text></g><g class="state" transform="translate(-20,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">IL</text></g><g class="state" transform="translate(20,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">MI</text></g><g class="state" transform="translate(100,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">NY</text></g><g class="state" transform="translate(140,-60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">MA</text></g><g class="state" transform="translate(-220,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">OR</text></g><g class="state" transform="translate(-180,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">NV</text></g><g class="state " transform="translate(-140,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">WY</text></g><g class="state " transform="translate(-100,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">SD</text></g><g class="state " transform="translate(-60,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">IA</text></g><g class="state" transform="translate(-20,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">IN</text></g><g class="state" transform="translate(20,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">OH</text></g><g class="state" transform="translate(60,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">PA</text></g><g class="state " transform="translate(100,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">NJ</text></g><g class="state" transform="translate(140,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">CT</text></g><g class="state" transform="translate(180,-20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">RI</text></g><g class="state " transform="translate(-220,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">CA</text></g><g class="state " transform="translate(-180,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">UT</text></g><g class="state" transform="translate(-140,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">CO</text></g><g class="state " transform="translate(-100,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">NE</text></g><g class="state" transform="translate(-60,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">MO</text></g><g class="state" transform="translate(-20,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">KY</text></g><g class="state" transform="translate(20,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">WV</text></g><g class="state" transform="translate(60,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">VA</text></g><g class="state" transform="translate(100,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">MD</text></g><g class="state" transform="translate(140,20)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">DE</text></g><g class="state" transform="translate(-180,60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">AZ</text></g><g class="state" transform="translate(-140,60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">NM</text></g><g class="state" transform="translate(-100,60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">KS</text></g><g class="state" transform="translate(-60,60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">AR</text></g><g class="state" transform="translate(-20,60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">TN</text></g><g class="state" transform="translate(20,60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">NC</text></g><g class="state" transform="translate(60,60)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">SC</text></g><g class="state" transform="translate(-100,100)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">OK</text></g><g class="state" transform="translate(-60,100)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">LA</text></g><g class="state" transform="translate(-20,100)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">MS</text></g><g class="state" transform="translate(20,100)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">AL</text></g><g class="state" transform="translate(60,100)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">GA</text></g><g class="state " transform="translate(-220,140)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">HI</text></g><g class="state" transform="translate(-180,140)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">AK</text></g><g class="state" transform="translate(-100,140)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">TX</text></g><g class="state" transform="translate(100,140)"><rect x="-20" y="-20" width="39" height="39"></rect><text dy=".35em">FL</text></g></g>
+
+</svg>
+    
+
+
+<script id="grid" type="text/plain">
+                              ME
+               WI          VT NH
+WA ID MT ND MN IL MI    NY MA
+OR NV WY SD IA IN OH PA NJ CT RI
+CA UT CO NE MO KY WV VA MD DE
+   AZ NM KS AR TN NC SC
+         OK LA MS AL GA
+HI AK    TX             FL
+</script>
+    
+<script src="https://d3js.org/d3.v3.js"></script>
+    
+    
+    
+    <!--引用jquery-->
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script>
+
+$( document ).ready(function() {
+	//設定下拉選單項目
+    var States = ["ME","WI","VT","NH"
+	             ,"WA","ID","MT","ND","MN","IL","NY","MA"
+				 ,"OR","NV","WY","SD","IA","IN","OH","PA","NJ","CT","RI"
+				 ,"CA","UT","CO","NE","MO","KY","WV","VA","MD","DE"
+				 ,"AZ","NM","KS","AR","TN","NC","SC"
+				 ,"OK","LA","MS","AL","GA"
+				 ,"HI","AK","TX","FL"];
+    $.each(States, function (i, item) {
+		$('#ddlstate').append($('<option>', { 
+			value: this,
+			text : this 
+		}));
+	});
+	//下拉選單選擇後的動作
+	$( "#ddlstate" ).change(function() {
+		$.each($('text'), function (i, item) {
+			var cc = $($($('text')[i]).parent()).attr("class");
+			$($($('text')[i]).parent()).attr("class",cc.replace('intro',''));
+			if ($($('text')[i]).text() == $( "#ddlstate" ).val()){
+				$($($('text')[i]).parent()).attr("class",cc + " intro");
+			}
+		});
+	});
+});
+
+var states = [],
+//調整為洲名,class
+//增加class 上方style需要跟著增加
+    selectedStates = ["MN,state--selected", "UT,state--selected", "HI,state--selected","CA,state1","NE,state1","NJ,state1","SD,state2","IA,state2","WY,state2","NH,state2"];
+   
+    
+    
+    
+    
+
+d3.select("#grid").text().split("\n").forEach(function(line, i) {
+  var re = /\w+/g, m;
+  while (m = re.exec(line)) {
+  var sel =  "";
+  $.each(selectedStates, function(i,item){ if(selectedStates[i].indexOf(m[0]) >= 0){ sel = selectedStates[i]}});
+  states.push({
+    name: m[0],
+    selected: sel,
+    x: m.index / 3,
+    y: i
+  });
+  }
+});
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var gridWidth = d3.max(states, function(d) { return d.x; }) + 1,
+    gridHeight = d3.max(states, function(d) { return d.y; }) + 1,
+    cellSize = 40;
+
+var state = svg.select("g")
+  .selectAll(".state")
+    .data(states)
+    .attr("class", function(d) { return "state " + (d.selected == "" ? "" : d.selected.split(',')[1] )});
+
+
+
+</script>
+
+
+    <script>
+ 
+    
+var width = $('body').width(),
+    height = $('body').height();
+var i = 0;
+svg = d3.select("svg");
+svg.attr("width", width)
+    .attr("height", height);
+svg.append("rect")
+    .attr("width", width)
+    .attr("height", height)
+    .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
+
+	function particle() {
+  var m = d3.mouse(this);
+  svg.insert("circle", "body")
+      .attr("cx", m[0])
+      .attr("cy", m[1])
+      .attr("r", 1e-6)
+      .style("stroke", d3.hsl((i = (i + 1) % 360), 1, .5))
+      .style("stroke-opacity", 1)
+    .transition()
+      .duration(2000)
+      .ease(Math.sqrt)
+      .attr("r", 100)
+      .style("stroke-opacity", 1e-6)
+      .remove();
+  d3.event.preventDefault();
+}
+    
+</script>
+
+    
+ <script>
+    
+    
+    
+    var clickMe = function(){
+      
+      alert('Minnesota has the third highest adequate sleep rate out of all 50 states in the US.');
+    }
+    
+
+        
+    var clickMe1 = function(){
+      
+      alert('Utah has the number one fewest average work hours in the country.');
+    }
+
+        
+    var clickMe2 = function(){
+      
+      alert('Hawaii has the number one lowest share of adult depression out of all 50 states.');
+    }
+
+        
+    var clickMe3 = function(){
+      
+      alert('California ranked second out of all 50 states in terms of "emotional and physical well-being."');
+    }
+
+        
+    var clickMe4 = function(){
+      
+      alert('Nebraska has the fourth lowest long-term unemployment rate, according to the study.');
+    }
+
+    
+    
+    
+    
+     var clickMe5 = function(){
+      
+      alert('New Jersey has the second lowest suicide rate in the country.');
+    }
+
+      var clickMe6 = function(){
+      
+      alert('South Dakota has the second highest income growth.');
+    }
+
+       var clickMe7 = function(){
+      
+      alert('Iowa has the third lowest long-term unemployment rate in the US.');
+    }
+
+        var clickMe8 = function(){
+      
+      alert('Wisconsin has the fourth highest volunteer rate out of all 50 states in the US.');
+    }
+
+         var clickMe9 = function(){
+      
+      alert('New Hampshire ranked second out of all 50 states in community and environment category.');
+    }
+
+    
+    
+  </script>
+    
+
+    
+    
+    <button type = "button" onclick= "clickMe();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:200px; 
+  right:150px; 
+  border: 1px solid #FFF; 
+  background-color: #99FFFF; 
+  ">
+     1
+  </button>
+    
+    
+    
+    
+    
+    
+    
+  
+     <button type = "button" onclick= "clickMe1();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:300px; 
+  right:150px; 
+  border: 1px solid #FFF; 
+  background-color: #99FFFF; 
+  ">
+     2
+  </button>
+     
+     <button type = "button" onclick= "clickMe2();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:400px; 
+  right:150px; 
+  border: 1px solid #FFF; 
+  background-color: #99FFFF; 
+  ">
+     3
+  </button>
+    
+    <button type = "button" onclick= "clickMe3();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:200px; 
+  right:350px; 
+  border: 1px solid #FFF; 
+  background-color: #BBFF00; 
+  ">
+     4
+  </button>    
+     <button type = "button" onclick= "clickMe4();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:300px; 
+  right:350px; 
+  border: 1px solid #FFF; 
+  background-color: #BBFF00; 
+  ">
+     5
+  </button>    
+
+    
+    <button type = "button" onclick= "clickMe5();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:400px; 
+  right:350px; 
+  border: 1px solid #FFF; 
+  background-color: #BBFF00; 
+  ">
+     6
+  </button>
+<button type = "button" onclick= "clickMe6();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:200px; 
+  right:550px; 
+  border: 1px solid #FFF; 
+  background-color: #9999FF; 
+  ">
+     7
+  </button>
+<button type = "button" onclick= "clickMe7();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:300px; 
+  right:550px; 
+  border: 1px solid #FFF; 
+  background-color: #9999FF; 
+  ">
+     8
+  </button>
+    <button type = "button" onclick= "clickMe8();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:400px; 
+  right:550px; 
+  border: 1px solid #FFF; 
+  background-color: #9999FF; 
+  ">
+     9
+  </button>
+    
+    
+<button type = "button" onclick= "clickMe9();" style="position: fixed; 
+  width:55px; 
+  height:55px; 
+  top:500px; 
+  right:550px; 
+  border: 1px solid #FFF; 
+  background-color: #9999FF; 
+  ">
+     10
+  </button>
+    
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+    
+      
+    
+    
+
+<!--
+
+<right><a href="pracf.html"><img src="paperplane.png" title="press me" border="0" width="15" height="15"></a></right>
+    
+    
+-->
+
+<center><a href="pracf.html"><img src="paperplane.png" title="press me" border="0" width="15" height="15"></a></center>
+
+
+	
+</body></html>
